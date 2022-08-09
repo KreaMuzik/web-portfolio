@@ -1,0 +1,28 @@
+.tutorials-grid-container {
+    font-family: Roboto, Arial;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 100px;
+    padding-left: 125px;
+    padding-right: 125px;
+    row-gap: 100px;
+    column-gap: 75px;
+}
+
+.grid-container {
+    background-color: lightblue;
+    display: grid;
+    grid-template-rows: 125px 125px 125px;
+}
+.grid-thumbnail {
+    width: 100%;
+}
+
+.grid-title {
+    font-size: 20px;
+}
+
+.grid-info {
+
+}
